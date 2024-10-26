@@ -223,9 +223,9 @@ input[type="submit"]{
 }
 
 .social-icons a {
-	padding: 16px 10px;
+	/* padding: 8px 8px; */
 	/* padding: 16px; */
-	margin: 10px;
+	margin: 8px;
 	text-decoration: none;
 }
 
@@ -238,11 +238,11 @@ input[type="submit"]{
 .social-icons svg {
 	fill: #fff;
 	transition: all.2s ease-in-out;
-	width: 24px;
+	width: 64px;
 }
 
 .social-icons a:hover svg {
-	transform: scale(3);
+	transform: scale(1.2);
 }
 
 .countdown {
