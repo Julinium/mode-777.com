@@ -1,0 +1,77 @@
+			<!doctype html>
+{% load static %}
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <meta name="robots" content="noindex,nofollow">
+      <title>MODE-777.COM | Coming soon...</title>
+	  <meta name="description" content="MODE-777.COM">
+      <link rel="icon" href="{% static 'images/favicon.svg' %}" sizes="32x32" />
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i,800,800i,900,900i" rel="stylesheet">
+      <link href="{% static 'css/style.css' %}" rel="stylesheet">
+   </head>
+   <body>
+   <div class="preloader" id="preloader">
+	  <div id="loader"></div>
+	</div>
+      <div class="content-wrap">
+         <div class="logo-box">
+            <img src="{% static 'images/logo.svg' %}">
+         </div>
+         <div class="cta-box">
+            <h1>Coming <span class="highlight">Soon!</span></h1>
+            <p>We are working on great ideas for our website.</p>
+            <br>
+            <p>Feel free to get in touch.</p>
+         </div>
+
+         <div class="social-icons">
+            <a href="mailto:777mode@proton.me">
+               <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" transform="scale(2.5)">
+                  <title>Email 777mode@proton.me</title>
+                  <image height="24" width="24" href="{% static 'images/mail.svg' %}" />
+               </svg>
+            </a>
+            <a href="tel:+212707477774">
+               <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" transform="scale(2.5)">
+                  <title>Call +212-707-477774</title>
+                  <image height="24" width="24" href="{% static 'images/phone.svg' %}" />
+               </svg>
+            </a>
+            <a href="https://t.me/+212707477774" target="_blank">
+               <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" transform="scale(2.5)">
+                  <title>Telegram +212-707-477774</title>
+                  <image height="24" width="24" href="{% static 'images/telegram.svg' %}" />
+               </svg>
+            </a>
+            <a href="https://wa.me/212606881972" target="_blank">
+               <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" transform="scale(2.5)">
+                  <title>Whatsapp +212-606-881972</title>
+                  <image height="24" width="24" href="{% static 'images/whatsapp.svg' %}" />
+               </svg>
+            </a>
+         </div>
+         <hr>
+         <div class="countdown">
+            <p class="timer-cta">Launch expected in</p>
+            <ul class="timer">
+               <li>
+                  <div class="time-box"><span class="time" id="days"></span> <span class="time-txt">DAYS</span></div>
+               </li>
+               <li>
+                  <div class="time-box"><span class="time" id="hours"></span> <span class="time-txt">HRS</span></div>
+               </li>
+               <li>
+                  <div class="time-box"><span class="time" id="minutes"></span> <span class="time-txt">MIN</span></div>
+               </li>
+               <li>
+                  <div class="time-box"><span class="time" id="seconds"></span> <span class="time-txt">SEC</span></div>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <script src="{% static 'js/main.js' %}"></script>
+      <script>countdown('01/01/2025 09:00:00 AM');</script>
+   </body>
+</html>
